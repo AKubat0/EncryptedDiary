@@ -1,7 +1,8 @@
-Encrypted Diary Manager
+#Encrypted Diary Manager
+
 A Java-based command-line application designed for managing personal diary entries. This tool provides a local storage solution where entries are automatically encrypted before being saved to the file system.
 
-Features
+##Features
 Entry Creation: Write and save diary entries that are automatically timestamped.
 
 Basic Encryption: Implements a Caesar Cipher to obfuscate stored text files.
@@ -12,7 +13,7 @@ Management: List all saved entries with file metadata or delete specific files w
 
 Search: Search for specific keywords across all encrypted entries.
 
-Technical Implementation
+##Technical Implementation
 The application is built using standard Java libraries:
 
 File I/O: Utilizes java.io and java.util.Scanner for file management and user input.
@@ -21,10 +22,10 @@ Cryptography: Implements a character-shift algorithm (Caesar Cipher) with a fixe
 
 Data Formatting: Uses java.time for consistent date-based file naming and metadata display.
 
-Installation and Usage
+##Installation and Usage
 Requirements: Ensure Java Development Kit (JDK) is installed on your system.
 
-Compilation:
+##Compilation:
 
 Bash
 javac EncryptedDiaryManager.java
