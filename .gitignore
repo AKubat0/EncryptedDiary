@@ -1,0 +1,3 @@
+# Ignore compiled Java classes and diary entries
+*.class
+diary_entries/
